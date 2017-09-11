@@ -1,4 +1,4 @@
-# lambda_slack_aws_billing
+# Lambda slack aws detailed billing
 
 This is a AWS Lambda function written in python 2.7 which posts detailed AWS billing info to slack.
 
@@ -9,7 +9,7 @@ Set your environment CLOUD_WATCH_REGION, AWS_SERVICE(name), HOOK_URL and SALCK_C
 
 Please note cloudwatch billing monitoring API is only available in N.Virginia / us-east-1
 
-After setting  theabove items, deploy it to your aws environmet. Set scheduled Event to post slack everyday.
+After setting  the above items, deploy it to your aws environment. Set scheduled Event to post slack everyday.
 
 
 ## Add the lambda role from root in N.Virginia to get access for billing.
